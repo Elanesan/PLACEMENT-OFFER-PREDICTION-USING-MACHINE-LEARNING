@@ -36,8 +36,7 @@ print("Predicted:", prediction[0])
 if prediction[0] == 0:
     a = [
         "Your performance may currently fall short of industry expectations. It is essential to identify areas for improvement and take proactive steps to enhance your skills and contributions in order to thrive in the professional landscape.",
-        "Your current performance level may not meet the industry standards. It is crucial to recognize areas that require improvement and take proactive measures to enhance your skills and capabilities, ensuring a more successful presence in the professional arena.",
-        "Consistent growth and learning are key in the dynamic industry environment. Regularly assess your skills and seek opportunities for development to stay competitive and relevant"
+        "Your current performance level may not meet the industry standards. It is crucial to recognize areas that require improvement and take proactive measures to enhance your skills and capabilities, ensuring a more successful presence in the professional arena."
     ]
     b = random.choice(a)
     print(b)
